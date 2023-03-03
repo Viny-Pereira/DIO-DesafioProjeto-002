@@ -1,5 +1,6 @@
 import java.time.LocalDate;
 
+import br.com.dio.challenge.domain.Content;
 import br.com.dio.challenge.domain.Course;
 import br.com.dio.challenge.domain.Mentoring;
 
@@ -14,6 +15,9 @@ public class Main {
         course2.setTitle("JavaScript");
         course2.setDescription("JavaScript description");
         course2.setCourseLoad(4);
+
+        Content content = new Course();
+        Content content1 = new Mentoring();
 
         Mentoring mentoring = new Mentoring();
         mentoring.setTitle("Mentoring Java");
